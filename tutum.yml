@@ -1,5 +1,5 @@
 web:
-  image: mjhea0/node-docker-workflow
+  image: enaqx/node-docker-workflow
   autorestart: always
   ports:
     - "80:3000"

@@ -14,7 +14,7 @@ lb:
     BACKEND_PORT: 3000
 
 web:
-  image: mjhea0/node-docker-workflow
+  image: enaqx/node-docker-workflow
   autorestart: always
   links:
     - "redis:redis"
